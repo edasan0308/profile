@@ -1,0 +1,87 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="js/page.js"></script>
+<title>えださんのプロフィール</title>
+<link href="css/simpleGridTemplate.css" rel="stylesheet" type="text/css">
+</head>
+<body onload="burycard()">
+  <!-- Main Container -->
+  <div class="container">
+    <!-- Header -->
+    <header class="header">
+      <h4 class="logo">Profile</h4>
+    </header>
+    <!-- Hero Section -->
+    <section class="intro">
+      <div class="column">
+          <h3>Yuki Imaeda</h3>
+      <img src="images/profile.png" alt="" class="profile"> </div>
+      <div class="column">
+        <p>--- 経   歴 ---<br/>愛知工業高校情報技術科に入学。3年間を通してコンピュータについて学習していく上で、様々な国家資格を取得。その後愛知工業大学情報科学科に進学。ハッカソンやチーム開発等を通してWEBエンジニアとして活動をする。現在3年生として、ネットワークスペシャリスト合格を目標に勉強中。</p>
+        <p>--- 資   格 ---<br/>ITパスポート / 基本情報技術者 / 応用情報技術者 / 第二種電気工事士 / 工事担任者AI:DD総合種 / 電気機器組立て(シーケンス制御作業) / パソコンスピード検定1級 / P検2級など</p>
+        <p>--- 受   賞 ---<br/>< 2019年 ><br/> <a href="https://hack.othlo.tech/2019/" style="color: white">OthloHack2019</a> 最優秀賞<br/><a href="https://toyolab.connpass.com/event/151713/" style="color: white">ええじゃないか!学生ハッカソンin豊橋</a> ウェブインパクト賞</p>
+      </div>
+    </section>
+    <!-- Stats Gallery Section -->
+    <div class="gallery">
+      <div class="thumbnail"> <a href="https://www.instagram.com/edasan.0308/"><img src="images/Instagram.jpg" alt="" width="2000" class="cards"/></a>
+        <h4>Instagram</h4>
+        <p class="tag">Picture, SLR Camera</p>
+        <p class="text_column">趣味の写真を投稿する場です。ストーリーでは普段の日常を発信する場にもなってます。#ぐれふぃスト</p>
+      </div>
+      <div class="thumbnail"> <a href="https://twitter.com/Edasan0308"><img src="images/Twitter.jpg" alt="" width="2000" class="cards"/></a>
+        <h4>Twitter</h4>
+        <p class="tag">Tweet</p>
+        <p class="text_column">Instagramのストーリーにあげるほどでもない細かいことなんかをツイートしてます。</p>
+      </div>
+      <div class="thumbnail"> <a href="https://www.youtube.com/channel/UChXE6NvQIrqLedSdOJcLcXA"><img src="images/Youtube.jpg" alt="" width="2000" class="cards"/></a>
+        <h4>YouTube</h4>
+        <p class="tag">Movie, Animation, AdobeCC</p>
+        <p class="text_column">Adobe製品のマスター目指してアニメーションなどを用いた解説動画等の制作をおこなっています。</p>
+      </div>
+      <div class="thumbnail"> <a href="https://dailyplus.edasan.online"><img src="images/dailyplus.png" alt="" width="2000" class="cards"/></a>
+        <h4>Daily+</h4>
+        <p class="tag">Blog</p>
+        <p class="text_column">日々の暮らしをちょっと豊かにする。というコンセプトの技術のことも書くブログです。</p>
+      </div>
+      <div class="thumbnail"> <a href="https://github.com/edasan0308"><img src="images/github.png" alt="" width="2000" class="cards"/></a>
+        <h4>Github</h4>
+        <p class="tag">Programming</p>
+        <p class="text_column">自主開発やハッカソン等で作成したコードをあげています。</p>
+      </div>
+      <div class="thumbnail"> <a href="https://qiita.com/edasan0308"><img src="images/Qiita.png" alt="" width="2000" class="cards"/></a>
+        <h4>Qiita</h4>
+        <p class="tag">Programming</p>
+        <p class="text_column">技術系の話題はこっちでも発信しています。</p>
+      </div>
+      <div class="thumbnail"> <a href="https://ekanji.appspot.com/"><img src="images/ekanji.png" alt="" width="2000" class="cards"/></a>
+        <h4>EKANJI</h4>
+        <p class="tag">OthloHack2019, React, Flask</p>
+        <p class="text_column">OthloHack2019で作成した割り勘をもっと身近にするのをコンセプトとした、EKANJIというプロダクトです。良い幹事で良い感じ〜！</p>
+      </div>
+      <div class="thumbnail"> <a href="http://warm-river-67621.herokuapp.com/"><img src="images/Todoapp.png" alt="" width="2000" class="cards"/></a>
+        <h4>ToDo App</h4>
+        <p class="tag">PHP, Laravel</p>
+        <p class="text_column">Frameworkを触れるために作ったToDoアプリケーションです。</p>
+      </div>
+      <div class="thumbnail"> <a href="https://bookrank.edasan.online/"><img src="images/Bokura.png" alt="" width="2000" class="cards"/></a>
+        <h4>BoKuRa</h4>
+        <p class="tag">PHP, API, SDK</p>
+        <p class="text_column">楽天APIを活用した本のランキングを取得、収集することのできるWEBサービスです。</p>
+      </div>
+    </div>
+    <footer id="contact">
+      <p class="hero_header">GET IN TOUCH WITH ME</p>
+      <div class="button">EMAIL<a href="contact.html" class="button-a"></a></div>
+    </footer>
+    <!-- Copyrights Section -->
+    <div class="copyright">&copy;2020 - <strong>Yuki Imaeda</strong></div>
+  </div>
+  <!-- Main Container Ends -->
+</body>
+</html>
